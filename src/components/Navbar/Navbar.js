@@ -12,6 +12,11 @@ export const NavSection = styled.div`
 export const Logo = styled.div`
   width: 50%;
   float: left;
+  
+@media (max-width : 991px) {
+      width: 100%;
+      float: none;
+  }
 `;
 
 export const LogoTxt = styled.h2`
@@ -24,9 +29,20 @@ export const ULList = styled.ul`
   float: right;
   list-style: none;
   margin-top: -57px;
+  
+@media (max-width : 991px) {
+  width: 100%;
+      float:  none;
+      margin-top: 20px;
+      display: none;
+}
 `;
 export const ListItem = styled.li`
   display: inline-block;
+  @media (max-width : 991px) {
+        display: block;
+        text-align: center;
+}
 `;
 export const Anchor = styled(Link)`
   display: block;
@@ -38,3 +54,11 @@ export const Anchor = styled(Link)`
     color: #eb5424;
   }
 `;
+
+// @media (min-width : 992px) {
+//   .navbar label {
+//       display: none
+//   }
+// }
+
+  

@@ -14,7 +14,7 @@ const Home = () => {
       <div className="container">
         <HomeInformation className="home-information">
           <HomeTitle className="home-title margin-bottom">
-            Hamza Nabil
+            Yasmin Ibrahim
           </HomeTitle>
           <HomeInfo className="home-info">Creative Director</HomeInfo>
           <HomeDesc className="home-desc">

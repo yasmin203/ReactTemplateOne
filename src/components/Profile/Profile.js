@@ -14,6 +14,9 @@ export const ProfileList = styled.ul`
 `;
 export const ProfileItem = styled.li`
   margin-bottom: 8px;
+  @media (max-width: 768px) {
+    margin-bottom: 20px;
+  }
 `;
 export const ProfileItemSpan = styled.span`
   display: inline-block;
@@ -29,6 +32,11 @@ export const SpanWeb = styled.span`
 export const Skills = styled.div`
   width: 50%;
   float: left;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    float: none;
+  }
 `;
 export const SkillsDesc = styled.p`
   font-size: 15px;

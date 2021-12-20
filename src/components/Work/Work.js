@@ -22,10 +22,22 @@ export const Part = styled.div`
   box-sizing: border-box;
   text-align: center;
   margin-left: ${(props) => (props.first === 1 ? "0" : "5%")};
+  @media (max-width: 575px) {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    width: 47%;
+  }
 `;
 
 export const First = styled.div`
   margin-left: 0;
+  @media (min-width: 576px) and (max-width: 768px) {
+    margin-left: 0;
+  }
 `;
 
 export const Icon = styled.i`
@@ -48,3 +60,5 @@ export const Desc = styled.p`
   color: #888;
   padding: 20px;
 `;
+
+
