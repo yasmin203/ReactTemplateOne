@@ -8,6 +8,7 @@ import {
   Anchor,
 } from "./Navbar.js";
 import "./Navbar.js";
+import "../Work";
 
 const Navbar = () => {
   return (
@@ -22,16 +23,16 @@ const Navbar = () => {
             <Anchor to="/">Home</Anchor>
           </ListItem>
           <ListItem className="list-item">
-            <Anchor to="#">Work</Anchor>
+            <Anchor to="/work">Work</Anchor>
           </ListItem>
           <ListItem className="list-item">
-            <Anchor to="#">Portfolio</Anchor>
+            <Anchor to="/portfolio">Portfolio</Anchor>
           </ListItem>
           <ListItem className="list-item">
-            <Anchor to="#">Resume</Anchor>
+            <Anchor to="/profile">Resume</Anchor>
           </ListItem>
           <ListItem className="list-item">
-            <Anchor to="#">About</Anchor>
+            <Anchor to="/about">About</Anchor>
           </ListItem>
           <ListItem className="list-item">
             <Anchor to="/contact">Contact</Anchor>
