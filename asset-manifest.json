@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactTemplateOne/static/css/main.e4737722.chunk.css",
-    "main.js": "/ReactTemplateOne/static/js/main.7371bfb9.chunk.js",
-    "main.js.map": "/ReactTemplateOne/static/js/main.7371bfb9.chunk.js.map",
+    "main.js": "/ReactTemplateOne/static/js/main.18c6522d.chunk.js",
+    "main.js.map": "/ReactTemplateOne/static/js/main.18c6522d.chunk.js.map",
     "runtime-main.js": "/ReactTemplateOne/static/js/runtime-main.40900c5f.js",
     "runtime-main.js.map": "/ReactTemplateOne/static/js/runtime-main.40900c5f.js.map",
     "static/js/2.b4a3dd16.chunk.js": "/ReactTemplateOne/static/js/2.b4a3dd16.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.40900c5f.js",
     "static/js/2.b4a3dd16.chunk.js",
     "static/css/main.e4737722.chunk.css",
-    "static/js/main.7371bfb9.chunk.js"
+    "static/js/main.18c6522d.chunk.js"
   ]
 }
