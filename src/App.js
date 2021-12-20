@@ -5,10 +5,11 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Index from "./components/Index";
 import Contact from "./components/Contact";
-import { Work } from "./components/Work/Work";
+import Work from "./components/Work";
 import Profile from "./components/Profile";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
           />
           <Route path="/about" component={About} element={<About />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     );
   }

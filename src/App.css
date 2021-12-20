@@ -1,5 +1,6 @@
 body {
     font-family: lucida sans ;
+     scroll-behavior: smooth;
 }
 .container {
     width: 85%;

@@ -34,7 +34,6 @@ const Contact = () => {
           </Form>
         </div>
       </Drop>
-      <Footer />
     </React.Fragment>
   );
 };
