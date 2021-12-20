@@ -16,7 +16,7 @@ class Home extends Component {
     works: [],
   };
   componentDidMount() {
-    axios.get("/js/data.json").then((res) => {
+    axios.get("js/data.json").then((res) => {
       this.setState({ works: res.data.works });
     });
   }
