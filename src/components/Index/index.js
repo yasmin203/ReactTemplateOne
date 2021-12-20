@@ -12,7 +12,7 @@ import Contact from "../Contact";
 class Index extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Home />
         <Work />
         <Portfolio />
@@ -21,7 +21,7 @@ class Index extends Component {
         <SocialMedia />
         <Contact />
         <Footer />
-      </div>
+      </React.Fragment>
     );
   }
 }
