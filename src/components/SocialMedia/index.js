@@ -8,7 +8,7 @@ class SocialMedia extends Component {
     social: [],
   };
   componentDidMount() {
-    axios.get("/js/data.json").then((res) => {
+    axios.get("js/data.json").then((res) => {
       this.setState({ social: res.data.social });
     });
   }

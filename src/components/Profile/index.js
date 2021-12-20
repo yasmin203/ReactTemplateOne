@@ -23,7 +23,7 @@ import {
 const Profile = () => {
   const [profiles, setProfiles] = useState([]);
   useEffect(() => {
-    axios.get("/js/data.json").then((res) => {
+    axios.get("js/data.json").then((res) => {
       setProfiles(res.data.profile);
     });
   }, []);
